@@ -13,5 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'GoustoController@helloWorld');
-Route::post('/test', 'GoustoController@helloWorld');
+Route::get('/', 'GoustoController@index');
+Route::post('/init', 'GoustoController@init');
+Route::post('/calculate', 'GoustoController@calculate');
